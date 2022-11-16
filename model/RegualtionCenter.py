@@ -1,1 +1,1 @@
-class RegualtionCenter():
+class RegualtionCenter:
