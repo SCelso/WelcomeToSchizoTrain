@@ -1,12 +1,39 @@
-class RedFerroviaria:
+from Tunnel import Tunnel
+from RailwaySection import RailwaySection
 
-    num_max_trenes_por_tramo=5
+class RailroadNetwork:
 
-    def __init__():
+    def __init__(self, num_max_trains_per_section,tunnel,railway_section):
+       self.__num_max_trains_per_section = num_max_trains_per_section
+       self.__tunnel=tunnel
+       self.__railway_section= railway_section
+    
+    @property
+    def num_max_trains_per_section(self):
+        return self.__num_max_trains_per_section
+
+    @property
+    def tunnel(self):
+        return self.__tunnel
+
+    @property
+    def railway_Section(self):
+        return self.__railway_section
+
+    # @num_max_trains_per_section.setter
+    # def num_max_trains_per_section(self,new):
+    #     self.__num_max_trains_per_section = new
 
 
-    def get_num_max_trenes_por_tramo():
-        return self.num_max_trenes_por_tramo
+    def train_position(section,position):
+        return
 
-    def num_max_trenes_por_tramo():
-        
+
+    def delete_train(section,position):
+        return
+
+    def tunnel_position(num_blue_section,num_red_section):#incompleto
+        return
+
+    def position_regulation_center(section,num_trains):
+        return
