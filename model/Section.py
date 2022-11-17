@@ -3,5 +3,6 @@ from enum import Enum
 
 class Section(Enum):
 
-    __RED_SECTION = 1
-    __BLUE_SECTION = 2
+    RED = 1
+    BLUE = 2
+    GREEEN = 3
